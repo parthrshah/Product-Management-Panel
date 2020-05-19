@@ -9,7 +9,7 @@ import org.springframework.data.repository.query.Param;
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
 	
 	@Query(value = "SELECT c FROM Customer c WHERE c.name LIKE '%' || :keyword || '%'"
-			+ " OR c.email LIKE '%' || :keyword || '%'"
-			+ " OR c.address LIKE '%' || :keyword || '%'")
+			+ " OR c.description LIKE '%' || :keyword || '%'"
+			+ " OR c.quantity LIKE '%' || :keyword || '%'")
 	public List<Customer> search(@Param("keyword") String keyword);
 }

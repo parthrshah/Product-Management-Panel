@@ -9,7 +9,7 @@
 
  <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Webjaguar</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+            <a class="navbar-brand" href="/CustomerManager">Webjaguar</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
             ><!-- Navbar Search-->
             
             <!-- Navbar-->
@@ -104,8 +104,8 @@
 												<tr>
 													<td>${customer.id}</td>
 													<td>${customer.name}</td>
-													<td>${customer.email}</td>
-													<td>${customer.address}</td>
+													<td>${customer.description}</td>
+													<td>${customer.quantity}</td>
 													<td>${customer.rating}</td>
 													<td>
 														<a href="edit?id=${customer.id}">Edit</a>

@@ -12,17 +12,17 @@ public class Customer {
 	private Long id;
 
 	private String name;
-	private String email;
-	private String address;
+	private String description;
+	private String quantity;
 	private String rating;
 
 	protected Customer() {
 	}
 
-	protected Customer(String name, String email, String address, String rating) {
+	protected Customer(String name, String description, String quantity, String rating) {
 		this.name = name;
-		this.email = email;
-		this.address = address;
+		this.description = description;
+		this.quantity = quantity;
 		this.rating = rating;
 	}
 
@@ -42,20 +42,20 @@ public class Customer {
 		this.name = name;
 	}
 
-	public String getemail() {
-		return email;
+	public String getdescription() {
+		return description;
 	}
 
-	public void setemail(String email) {
-		this.email = email;
+	public void setdescription(String description) {
+		this.description = description;
 	}
 
-	public String getaddress() {
-		return address;
+	public String getquantity() {
+		return quantity;
 	}
 
-	public void setaddress(String address) {
-		this.address = address;
+	public void setquantity(String quantity) {
+		this.quantity = quantity;
 	}
 	
 	public String getRating() {

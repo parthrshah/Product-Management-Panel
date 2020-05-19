@@ -10,7 +10,7 @@
 <body class="sb-nav-fixed">
 	<form:form action="save" method="post" modelAttribute="customer">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Webjaguar</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+            <a class="navbar-brand" href="/CustomerManager">Webjaguar</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
             ><!-- Navbar Search-->
             
             <!-- Navbar-->
@@ -70,7 +70,7 @@
 						<div class="form-group">
 						  <label class="col-md-4 control-label" for="product_name_fr">PRODUCT DESCRIPTION</label>  
 						  <div class="col-md-12">
-							<form:input path="email" id="product_name_fr" placeholder="PRODUCT DESCRIPTION FR" class="form-control input-md" required="" type="text"/>
+							<form:input path="description" id="product_name_fr" placeholder="PRODUCT DESCRIPTION" class="form-control input-md" required="" type="text"/>
 						  </div>
 						</div>
 
@@ -81,7 +81,7 @@
 						  <label class="col-md-4 control-label" for="available_quantity">PRODUCT QUANTITY</label>  
 						  <div class="col-md-12">
 						  
-							<form:input path="address" id="available_quantity"  placeholder="AVAILABLE QUANTITY" class="form-control input-md" required="" type="text" />
+							<form:input path="quantity" id="available_quantity"  placeholder="AVAILABLE QUANTITY" class="form-control input-md" required="" type="text" />
 						  </div>
 						</div>
 
@@ -94,7 +94,7 @@
 						  <label class="col-md-4 control-label" for="percentage_discount">PRODUCT RATING</label>  
 						  <div class="col-md-12">
 						 
-							<form:input path="rating" id="percentage_discount" placeholder="PERCENTAGE DISCOUNT" class="form-control input-md" required="" type="text"/>
+							<form:input path="rating" id="percentage_discount" placeholder="PERCENTAGE RATING" class="form-control input-md" required="" type="text"/>
 						  </div>
 						</div>
 
