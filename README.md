@@ -1,5 +1,7 @@
 # Product-Management-Panel
-Here admin will be able to see list of existing product, add, update and delete a product. Admin can also see graphical representation of YTD product sales
+Here admin will be able to see list of existing product, add, update and delete a product. Admin can also see graphical representation of YTD product sales.
+
+Template source: https://blackrockdigital.github.io/startbootstrap-sb-admin/dist/index.html
 
 # Screenshots: Including WEB and MOBILE Responsive view:
 
