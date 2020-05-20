@@ -9,7 +9,7 @@
 
  <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="/CustomerManager">Webjaguar</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+            <a class="navbar-brand" href="/ProductManager">Webjaguar</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
             ><!-- Navbar Search-->
             
             <!-- Navbar-->
@@ -28,11 +28,11 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Category</div>
-                            <a class="nav-link" href="/CustomerManager/"
+                            <a class="nav-link" href="/ProductManager/"
                                 ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
-							<a class="nav-link" href="/CustomerManager/new"
+							<a class="nav-link" href="/ProductManager/new"
                                 ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Add New Product
                             </a>                            
@@ -100,17 +100,17 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        	<c:forEach items="${listCustomer}" var="customer">
+                                        	<c:forEach items="${listProduct}" var="product">
 												<tr>
-													<td>${customer.id}</td>
-													<td>${customer.name}</td>
-													<td>${customer.description}</td>
-													<td>${customer.quantity}</td>
-													<td>${customer.rating}</td>
+													<td>${product.id}</td>
+													<td>${product.name}</td>
+													<td>${product.description}</td>
+													<td>${product.quantity}</td>
+													<td>${product.rating}</td>
 													<td>
-														<a href="edit?id=${customer.id}">Edit</a>
+														<a href="edit?id=${product.id}">Edit</a>
 														&nbsp;&nbsp;&nbsp;
-														<a href="delete?id=${customer.id}">Delete</a>
+														<a href="delete?id=${product.id}">Delete</a>
 													</td>	
 													
 												</tr>

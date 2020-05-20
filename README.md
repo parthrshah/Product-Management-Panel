@@ -38,6 +38,3 @@ Template source: https://blackrockdigital.github.io/startbootstrap-sb-admin/dist
 
 
 ![](https://github.com/parthrshah/Product-Management-Panel/blob/master/Screenshot%20(87).png)
-
-
-![](https://github.com/parthrshah/Product-Management-Panel/blob/master/Screenshot%20(88).png)
